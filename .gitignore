@@ -1,0 +1,88 @@
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Editor / IDE files
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Dependencies
+# =========================
+node_modules/
+vendor/
+
+# =========================
+# Build / dist files
+# =========================
+dist/
+build/
+out/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# =========================
+# Laravel
+# =========================
+storage/*.key
+storage/logs/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+bootstrap/cache/
+
+# =========================
+# React / Next.js
+# =========================
+.next/
+.cache/
+
+# =========================
+# Docker
+# =========================
+*.pid
+docker-data/
+
+# =========================
+# Database
+# =========================
+*.sqlite
+*.db
+
+# =========================
+# Compressed files
+# =========================
+*.zip
+*.tar
+*.tar.gz
+*.rar
