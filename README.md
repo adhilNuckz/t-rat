@@ -1,6 +1,7 @@
-# BotBuilder Setup Guide
+# T-RAT Setup Guide
 
-## For New Laptop (Python 3.11 Required)
+## (LIKE always- for EDUCATIONAL  PURPOSE only !!!!! 😊)
+
 
 ### Step 1: Install Python 3.11
 
@@ -29,8 +30,8 @@ C:\Python311\python.exe --version
 
 ```powershell
 # Create new folder
-mkdir C:\BotBuilder
-cd C:\BotBuilder
+mkdir BotBuilder
+cd BotBuilder
 
 # Create venv using Python 3.11
 C:\Python311\python.exe -m venv venv
@@ -50,23 +51,10 @@ python --version
 pip install pyinstaller python-telegram-bot==13.15 pillow psutil opencv-python pyaudio
 ```
 
-### Step 5: Copy BotBuilder Files
-
-Copy **ONLY** these files from your old laptop to `C:\BotBuilder`:
-
-```
-C:\BotBuilder\
-  ├── BotBuilder.exe           # Copy this
-  ├── telebot_lite.py          # Copy this
-  └── upx\                     # Copy this folder
-```
-
-**DO NOT copy venv** - you already created it in Step 3!
-
-### Step 6: Run BotBuilder
+### Step 5: Run BotBuilder
 
 ```powershell
-cd C:\BotBuilder
+cd BotBuilder
 .\BotBuilder.exe
 ```
 
@@ -180,3 +168,6 @@ python -m pip show pyinstaller  # Should show PyInstaller info
 - Checks: venv folder, C:\Python311, Program Files, PATH
 - Verifies Python version before building
 - Only Python 3.11.x is accepted (3.10, 3.12 will be rejected)
+
+
+# HAPPY  HACKING 🤳❤❤
