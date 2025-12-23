@@ -101,7 +101,7 @@ C:\BotBuilder\
 
 
 ## command to use
-###/help     show available options 
+### /help     show available options 
 
 ## Features
 
