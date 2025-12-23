@@ -99,6 +99,10 @@ C:\BotBuilder\
 
 ---
 
+
+## command to use
+###/help     show available options 
+
 ## Features
 
 ### ✅ Startup Feature
